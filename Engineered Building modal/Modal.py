@@ -285,11 +285,11 @@ ops.element('nonlinearBeamColumn', 76, 28, 32, NI, Beam230x350, LTransBeaY)
 ops.element('nonlinearBeamColumn', 77, 36, 40, NI, Beam230x350, LTransBeaY)
 ops.element('nonlinearBeamColumn', 78, 40, 44, NI, Beam230x350, LTransBeaY)
 
-# opsplt.plot_model()
-#opsplt.plot_model("nodes","elements")
-# figure1, *_ = opsplt.plot_modeshape(1)
-# figure2, *_ = opsplt.plot_modeshape(2)
-# figure3, *_ = opsplt.plot_modeshape(3)
+opsplt.plot_model()
+opsplt.plot_model("nodes","elements")
+figure1, *_ = opsplt.plot_modeshape(1)
+figure2, *_ = opsplt.plot_modeshape(2)
+figure3, *_ = opsplt.plot_modeshape(3)
 # filename1= f'Mode_shape1.png'
 # filename2= f'Mode_shape2.png'
 # filename3= f'Mode_shape3.png'
